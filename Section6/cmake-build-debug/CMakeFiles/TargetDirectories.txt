@@ -1,0 +1,10 @@
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section6/cmake-build-debug/CMakeFiles/MergeSort.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section6/cmake-build-debug/CMakeFiles/InversionCount.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section6/cmake-build-debug/CMakeFiles/Quicksort.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section6/cmake-build-debug/CMakeFiles/SelectQuick.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section6/cmake-build-debug/CMakeFiles/SmallestString.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section6/cmake-build-debug/CMakeFiles/SpareSearch.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section6/cmake-build-debug/CMakeFiles/Exercises.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section6/cmake-build-debug/CMakeFiles/Challenge.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section6/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section6/cmake-build-debug/CMakeFiles/rebuild_cache.dir

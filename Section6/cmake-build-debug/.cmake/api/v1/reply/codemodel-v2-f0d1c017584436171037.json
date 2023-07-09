@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Section6",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Challenge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Challenge-Debug-20ea9e656a2daa1127ae.json",
+					"name" : "Challenge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Exercises::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exercises-Debug-690ac0d77aad0fcc34bc.json",
+					"name" : "Exercises",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InversionCount::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InversionCount-Debug-65cce0ebbf1e303f8ef2.json",
+					"name" : "InversionCount",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MergeSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MergeSort-Debug-7e3f6f7d02f984466272.json",
+					"name" : "MergeSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Quicksort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Quicksort-Debug-aa98fb1bbe517cea38f2.json",
+					"name" : "Quicksort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SelectQuick::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SelectQuick-Debug-858650065dc229c4e558.json",
+					"name" : "SelectQuick",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SmallestString::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SmallestString-Debug-e9936b694b7fe81fb9c0.json",
+					"name" : "SmallestString",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SpareSearch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SpareSearch-Debug-fa651385cc521f16f066.json",
+					"name" : "SpareSearch",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section6/cmake-build-debug",
+		"source" : "C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section6"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

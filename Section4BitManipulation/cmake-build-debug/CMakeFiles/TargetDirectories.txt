@@ -1,0 +1,3 @@
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section4BitManipulation/cmake-build-debug/CMakeFiles/BitwiseOperations.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section4BitManipulation/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section4BitManipulation/cmake-build-debug/CMakeFiles/rebuild_cache.dir

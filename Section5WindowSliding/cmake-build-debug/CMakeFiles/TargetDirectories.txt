@@ -1,0 +1,7 @@
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section5WindowSliding/cmake-build-debug/CMakeFiles/K-sum.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section5WindowSliding/cmake-build-debug/CMakeFiles/SubString.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section5WindowSliding/cmake-build-debug/CMakeFiles/SubString2.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section5WindowSliding/cmake-build-debug/CMakeFiles/StringWindow.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section5WindowSliding/cmake-build-debug/CMakeFiles/Exercises.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section5WindowSliding/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section5WindowSliding/cmake-build-debug/CMakeFiles/rebuild_cache.dir

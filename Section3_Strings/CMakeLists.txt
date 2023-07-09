@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.21)
+project(Section3_Strings)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(Section3_Strings Space20/main.cpp Space20/Utils.cpp Space20/Utils.h)
+add_executable(Tokenization Tokenization/main.cpp Tokenization/TokenizationUtils.cpp Tokenization/TokenizationUtils.h)
+add_executable(SortStrings SortStrings/main.cpp Tokenization/TokenizationUtils.cpp)
+add_executable(CheckSubset CheckSubset/CheckSubset.cpp CheckSubset/CheckSubsetApp.cpp CheckSubset/CheckSubsetApp.h)
+add_executable(SubsetSequence SubsetSequence/SubsetSequence.cpp)
+add_executable(DigitalClock Exercise/DigitalClock.cpp)
+add_executable(LargestString Exercise/LargestString.cpp Tokenization/TokenizationUtils.cpp Tokenization/TokenizationUtils.h)
+add_executable(RunLength Exercise/RunLength.cpp)
+add_executable(PalindromeBreak Exercise/PalindromeBreak.cpp)
+add_executable(StringNormalization Exercise/StringNormalization.cpp)

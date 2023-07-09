@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Section5WindowSliding",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Exercises::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exercises-Debug-72fa9da17d1c50a5c926.json",
+					"name" : "Exercises",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "K-sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-K-sum-Debug-6904b37817d9ebbac72a.json",
+					"name" : "K-sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StringWindow::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StringWindow-Debug-49d7b605a76cae743655.json",
+					"name" : "StringWindow",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SubString::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SubString-Debug-6273ba4a46de9686c392.json",
+					"name" : "SubString",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SubString2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SubString2-Debug-c27d1a248004c06079bb.json",
+					"name" : "SubString2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section5WindowSliding/cmake-build-debug",
+		"source" : "C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section5WindowSliding"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
