@@ -1,0 +1,26 @@
+# ninja log v5
+0	502	7111670085614367	CMakeFiles/Section7Searching.dir/main.cpp.obj	df7a04f889cc6449
+3	223	7111670895707763	CMakeFiles/Section7Searching.dir/BinarySearch/BinarySearchUtilities.cpp.obj	f304c10f487f6852
+223	450	7111670897860931	Section7Searching.exe	e84f3ccb4245079b
+18	245	7111675632153246	CMakeFiles/Section7Searching.dir/BinarySearch/BinarySearchUtilities.cpp.obj	f304c10f487f6852
+3	502	7111675634752787	CMakeFiles/Section7Searching.dir/main.cpp.obj	df7a04f889cc6449
+503	691	7111675636624998	Section7Searching.exe	e84f3ccb4245079b
+4	191	7111675880689289	CMakeFiles/Section7Searching.dir/BinarySearch/BinarySearchUtilities.cpp.obj	f304c10f487f6852
+198	356	7111675882322568	Section7Searching.exe	e84f3ccb4245079b
+4	508	7111675998004935	CMakeFiles/Section7Searching.dir/main.cpp.obj	df7a04f889cc6449
+508	700	7111675999881656	Section7Searching.exe	e84f3ccb4245079b
+3	479	7111676084291105	CMakeFiles/Section7Searching.dir/main.cpp.obj	df7a04f889cc6449
+479	670	7111676086177390	Section7Searching.exe	e84f3ccb4245079b
+5	486	7111676208972456	CMakeFiles/Section7Searching.dir/main.cpp.obj	df7a04f889cc6449
+487	663	7111676210712601	Section7Searching.exe	e84f3ccb4245079b
+3	223	7111676705287965	CMakeFiles/Section7Searching.dir/BinarySearch/BinarySearchUtilities.cpp.obj	f304c10f487f6852
+224	399	7111676707008823	Section7Searching.exe	e84f3ccb4245079b
+5	479	7111676995661855	CMakeFiles/Section7Searching.dir/main.cpp.obj	df7a04f889cc6449
+479	662	7111676997488613	Section7Searching.exe	e84f3ccb4245079b
+3	263	7111677959678510	CMakeFiles/Section7Searching.dir/BinarySearch/BinarySearchUtilities.cpp.obj	f304c10f487f6852
+264	442	7111677961429873	Section7Searching.exe	e84f3ccb4245079b
+18	224	7111737691134620	CMakeFiles/Section7Searching.dir/BinarySearch/BinarySearchUtilities.cpp.obj	f304c10f487f6852
+3	486	7111737693696085	CMakeFiles/Section7Searching.dir/main.cpp.obj	df7a04f889cc6449
+487	703	7111737695832368	Section7Searching.exe	e84f3ccb4245079b
+4	260	7111738640657315	CMakeFiles/Section7Searching.dir/BinarySearch/BinarySearchUtilities.cpp.obj	f304c10f487f6852
+261	458	7111738642614971	Section7Searching.exe	e84f3ccb4245079b

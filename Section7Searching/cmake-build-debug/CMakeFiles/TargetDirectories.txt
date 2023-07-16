@@ -1,0 +1,3 @@
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section7Searching/cmake-build-debug/CMakeFiles/Section7Searching.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section7Searching/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/layca/OneDrive - Instituto Politecnico Nacional/Documento/UdemyCourses/DataStructuresAndAlgorithmsC++/Section7Searching/cmake-build-debug/CMakeFiles/rebuild_cache.dir
