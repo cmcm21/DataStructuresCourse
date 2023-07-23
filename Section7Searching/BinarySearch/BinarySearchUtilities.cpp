@@ -3,6 +3,7 @@
 //
 
 #include "BinarySearchUtilities.h"
+#include <cmath>
 
 int BinarySearchUtilities::BinarySearch(std::vector<int> &array, int element)
 {
@@ -100,4 +101,39 @@ int BinarySearchUtilities::RotatedSearch(std::vector<int> &array, int element)
     }
 
     return -1;
+}
+
+float BinarySearchUtilities::SquareRoot(int number, int places)
+{
+    float answer = 0;
+    float tmpAnswer = 0;
+
+    int start = 0;
+    int end = number;
+    while(start <= end)
+    {
+        int mid = ((end - start) / 2) + start;
+        if(pow(mid,2) <= number)
+        {
+            answer = (float)mid;
+            start = mid + 1;
+        }
+        else
+        {
+            end = mid - 1;
+        }
+    }
+
+    for(int i = 0; i < places; i++)
+    {
+        for(int j = 0; j <= 9 <= number; j++)
+        {
+            tmpAnswer = answer + float(0.1f/pow(10,i));
+            if(pow(tmpAnswer,2) <= number)
+                answer = tmpAnswer;
+            else
+                break;
+        }
+    }
+    return answer;
 }

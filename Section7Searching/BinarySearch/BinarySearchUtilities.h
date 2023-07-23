@@ -16,6 +16,7 @@ public:
     static int BinarySearch(std::vector<int> &array, int element);
     static int FrequencyCount(std::vector<int> &array, int element);
     static int RotatedSearch(std::vector<int> &array, int element);
+    static float SquareRoot(int number, int places);
 };
 
 

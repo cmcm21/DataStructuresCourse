@@ -5,10 +5,11 @@ using namespace std;
 
 void TestFrequencyCounter();
 void TestRotatedSearch();
+void TestSquareRoot();
 
 int main()
 {
-    TestRotatedSearch();
+    TestSquareRoot();
     return 0;
 }
 
@@ -24,4 +25,12 @@ void TestRotatedSearch()
     int key;
     cin >> key;
     cout << BinarySearchUtilities::RotatedSearch(input,key) << endl;
+}
+
+void TestSquareRoot()
+{
+    int number = 0, places = 0;
+    cin >> number >> places;
+
+    cout << BinarySearchUtilities::SquareRoot(number,places) << endl;
 }
