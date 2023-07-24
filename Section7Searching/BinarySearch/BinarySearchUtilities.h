@@ -12,11 +12,13 @@ class BinarySearchUtilities
 private:
     static int LowerConcurrency(std::vector<int> &array,int index,int element);
     static int HigherConcurrency(std::vector<int> &array,int index,int element);
+    static bool ValidateDistance(const std::vector<int> &places,int elements, int distance);
 public:
     static int BinarySearch(std::vector<int> &array, int element);
     static int FrequencyCount(std::vector<int> &array, int element);
     static int RotatedSearch(std::vector<int> &array, int element);
     static float SquareRoot(int number, int places);
+    static int MaxDistanceBetween(const std::vector<int>& places, int elements);
 };
 
 

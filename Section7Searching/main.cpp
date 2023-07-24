@@ -6,10 +6,11 @@ using namespace std;
 void TestFrequencyCounter();
 void TestRotatedSearch();
 void TestSquareRoot();
+void TestAngryBirds();
 
 int main()
 {
-    TestSquareRoot();
+    TestAngryBirds();
     return 0;
 }
 
@@ -34,3 +35,11 @@ void TestSquareRoot()
 
     cout << BinarySearchUtilities::SquareRoot(number,places) << endl;
 }
+void TestAngryBirds()
+{
+    vector<int> input = {1,2,4,8,9};
+    int birds = 3;
+
+    cout << BinarySearchUtilities::MaxDistanceBetween(input,birds) << endl;
+}
+

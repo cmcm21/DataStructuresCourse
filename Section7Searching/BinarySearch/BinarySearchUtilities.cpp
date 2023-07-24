@@ -137,3 +137,42 @@ float BinarySearchUtilities::SquareRoot(int number, int places)
     }
     return answer;
 }
+
+int BinarySearchUtilities::MaxDistanceBetween(const std::vector<int>& places, int elements)
+{
+    int answer = 0;
+    int maxDistance = places[places.size() - 1] - places[0];
+    int minDistance = places[0];
+    while(minDistance <= maxDistance)
+    {
+        int mid = (maxDistance - minDistance) / 2 + minDistance;
+        if(ValidateDistance(places,elements,mid))
+        {
+            answer = mid;
+            minDistance = mid + 1;
+        }
+        else
+            maxDistance = mid - 1;
+    }
+
+    return answer;
+}
+
+bool BinarySearchUtilities::ValidateDistance(const std::vector<int> &places, int elements, int distance)
+{
+    //set first element
+    int currentPosition = *places.begin();
+    elements--;
+
+    //set all other elements each distance
+    for(int place: places)
+    {
+        if((place - currentPosition) >= distance)
+        {
+            currentPosition = place;
+            elements--;
+        }
+    }
+
+    return elements <= 0;
+}
