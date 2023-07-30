@@ -13,12 +13,16 @@ private:
     static int LowerConcurrency(std::vector<int> &array,int index,int element);
     static int HigherConcurrency(std::vector<int> &array,int index,int element);
     static bool ValidateDistance(const std::vector<int> &places,int elements, int distance);
+    static std::pair<bool,int> GetLowerBound(std::vector<int> &array, int element);
+    static std::pair<bool,int> GetHigherBound(std::vector<int> &array, int element);
+    static int GetRest(std::pair<int,int> pair);
 public:
     static int BinarySearch(std::vector<int> &array, int element);
     static int FrequencyCount(std::vector<int> &array, int element);
     static int RotatedSearch(std::vector<int> &array, int element);
     static float SquareRoot(int number, int places);
     static int MaxDistanceBetween(const std::vector<int>& places, int elements);
+    static std::pair<int,int> GetMinPair(std::vector<int> &arr_1, std::vector<int> &arr_2);
 };
 
 

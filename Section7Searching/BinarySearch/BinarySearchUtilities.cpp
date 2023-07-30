@@ -4,6 +4,7 @@
 
 #include "BinarySearchUtilities.h"
 #include <cmath>
+#include <algorithm>
 
 int BinarySearchUtilities::BinarySearch(std::vector<int> &array, int element)
 {
@@ -146,12 +147,12 @@ int BinarySearchUtilities::MaxDistanceBetween(const std::vector<int>& places, in
     while(minDistance <= maxDistance)
     {
         int mid = (maxDistance - minDistance) / 2 + minDistance;
-        if(ValidateDistance(places,elements,mid))
+        if(ValidateDistance(places,elements,mid)) //go right
         {
             answer = mid;
             minDistance = mid + 1;
         }
-        else
+        else //go left
             maxDistance = mid - 1;
     }
 
@@ -176,3 +177,95 @@ bool BinarySearchUtilities::ValidateDistance(const std::vector<int> &places, int
 
     return elements <= 0;
 }
+
+std::pair<int, int> BinarySearchUtilities::GetMinPair(std::vector<int> &arr_1,std::vector<int> &arr_2)
+{
+    std::sort(arr_1.begin(),arr_1.end());
+    std::pair<int,int> answer = { 0,0};
+    std::pair<bool,int> tempBound;
+    std::pair<int,int> tempAnswer;
+    bool solved = false;
+
+    for(int element : arr_2)
+    {
+        tempBound = GetLowerBound(arr_1, element);
+        if(tempBound.first)
+        {
+            tempAnswer = std::make_pair(tempBound.second,element);
+            if(!solved || GetRest(answer) >= GetRest(tempAnswer))
+            {
+                answer = tempAnswer;
+                solved = true;
+            }
+        }
+
+        tempBound = GetHigherBound(arr_1,element);
+        if(tempBound.first)
+        {
+            tempAnswer = std::make_pair(tempBound.second,element);
+            if(!solved || GetRest(answer) >= GetRest(tempAnswer))
+            {
+                answer = tempAnswer;
+                solved = true;
+            }
+        }
+    }
+    return answer;
+}
+
+std::pair<bool,int> BinarySearchUtilities::GetLowerBound(std::vector<int> &array, int element)
+{
+    int start = 0;
+    int end = array.size() - 1;
+    int answer = 0;
+    bool solved = false;
+
+    while(start <= end)
+    {
+        int mid = (end - start)/ 2 + start;
+        if(array[mid] <= element) //right
+        {
+            start = mid + 1;
+            answer = array[mid];
+            solved = true;
+        }
+        else //left
+        {
+            end = mid - 1;
+        }
+    }
+
+    return std::make_pair(solved,answer);
+}
+
+std::pair<bool,int> BinarySearchUtilities::GetHigherBound(std::vector<int> &array, int element)
+{
+    int start = 0;
+    int end = array.size() - 1;
+    int answer = 0;
+    bool solved = false;
+
+    while(start <= end)
+    {
+        int mid = (end - start) / 2 + start;
+        if(array[mid] >= element) // left
+        {
+            end = mid - 1;
+            answer = array[mid];
+            solved = true;
+        }
+        else //right
+        {
+            start = mid + 1;
+        }
+    }
+
+    return std::make_pair(solved,answer);
+}
+
+int BinarySearchUtilities::GetRest(std::pair<int, int> pair)
+{
+   return abs(pair.first - pair.second);
+}
+
+

@@ -7,10 +7,11 @@ void TestFrequencyCounter();
 void TestRotatedSearch();
 void TestSquareRoot();
 void TestAngryBirds();
+void TestMinPair();
 
 int main()
 {
-    TestAngryBirds();
+    TestMinPair();
     return 0;
 }
 
@@ -43,3 +44,11 @@ void TestAngryBirds()
     cout << BinarySearchUtilities::MaxDistanceBetween(input,birds) << endl;
 }
 
+void TestMinPair()
+{
+    vector<int> input1 = {-1,5,10,20,3};
+    vector<int> input2 = {26,134,135,15,17};
+
+    auto answer = BinarySearchUtilities::GetMinPair(input1,input2);
+    printf("[ %d, %d ]",answer.first,answer.second);
+}
