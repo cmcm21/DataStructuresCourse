@@ -269,3 +269,58 @@ int BinarySearchUtilities::GetRest(std::pair<int, int> pair)
 }
 
 
+
+bool BinarySearchUtilities::ValidateCoins(const std::vector<int> &coins, int subCoins, int friends)
+{
+    int counter = 0;
+    int sum = 0;
+
+    for(int coin : coins)
+    {
+        sum += coin;
+        if(sum >= subCoins)
+        {
+            counter++;
+            sum = 0;
+        }
+    }
+
+    return counter >= friends;
+}
+
+int BinarySearchUtilities::GetCoins(std::vector<int> &coins, int friends)
+{
+
+    int min = INT_MAX;
+    int max = 0;
+
+    std::for_each(coins.begin(),coins.end(),[&](int coin) -> void {
+         if(coin < min)
+             min = coin;
+
+         max += coin;
+    });
+
+    int start = min;
+    int end = max;
+    int mid = 0;
+    int answer = 0;
+
+    while(start <= end)
+    {
+        mid = (end - start) / 2 + start;
+        if(ValidateCoins(coins,mid,friends))
+        {
+            answer = mid;
+            start = mid + 1;
+        }
+        else
+        {
+            end = mid - 1;
+        }
+    }
+
+    return answer;
+}
+
+

@@ -8,10 +8,11 @@ void TestRotatedSearch();
 void TestSquareRoot();
 void TestAngryBirds();
 void TestMinPair();
+void TestGreedyFriends();
 
 int main()
 {
-    TestMinPair();
+    TestGreedyFriends();
     return 0;
 }
 
@@ -51,4 +52,11 @@ void TestMinPair()
 
     auto answer = BinarySearchUtilities::GetMinPair(input1,input2);
     printf("[ %d, %d ]",answer.first,answer.second);
+}
+
+void TestGreedyFriends()
+{
+    vector<int> input1 = {1,8,10,12,13,14,20,22};
+
+    cout << BinarySearchUtilities::GetCoins(input1,3) << endl;
 }
