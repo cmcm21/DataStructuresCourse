@@ -9,10 +9,11 @@ void TestSquareRoot();
 void TestAngryBirds();
 void TestMinPair();
 void TestGreedyFriends();
+void TestBooksSolution();
 
 int main()
 {
-    TestGreedyFriends();
+    TestBooksSolution();
     return 0;
 }
 
@@ -59,4 +60,11 @@ void TestGreedyFriends()
     vector<int> input1 = {1,8,10,12,13,14,20,22};
 
     cout << BinarySearchUtilities::GetCoins(input1,3) << endl;
+}
+
+void TestBooksSolution()
+{
+    vector<int> input1 = { 12, 34, 67, 90};
+
+    cout << BinarySearchUtilities::GetMinPages(input1, 2) << endl;
 }

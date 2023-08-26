@@ -17,6 +17,7 @@ private:
     static std::pair<bool,int> GetLowerBound(std::vector<int> &array, int element);
     static std::pair<bool,int> GetHigherBound(std::vector<int> &array, int element);
     static int GetRest(std::pair<int,int> pair);
+    static std::pair<bool,int> CheckDistributionOfPages(std::vector<int> &books, int pages, int students);
 public:
     static int BinarySearch(std::vector<int> &array, int element);
     static int FrequencyCount(std::vector<int> &array, int element);
@@ -25,6 +26,7 @@ public:
     static int MaxDistanceBetween(const std::vector<int>& places, int elements);
     static std::pair<int,int> GetMinPair(std::vector<int> &arr_1, std::vector<int> &arr_2);
     static int GetCoins(std::vector<int> &coins, int friends);
+    static int GetMinPages(std::vector<int> &books, int students);
 };
 
 

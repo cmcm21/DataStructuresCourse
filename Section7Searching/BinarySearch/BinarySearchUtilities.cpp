@@ -5,6 +5,7 @@
 #include "BinarySearchUtilities.h"
 #include <cmath>
 #include <algorithm>
+#include <iostream>
 
 int BinarySearchUtilities::BinarySearch(std::vector<int> &array, int element)
 {
@@ -321,6 +322,72 @@ int BinarySearchUtilities::GetCoins(std::vector<int> &coins, int friends)
     }
 
     return answer;
+}
+
+int BinarySearchUtilities::GetMinPages(std::vector<int> &books, int students)
+{
+    auto booksCopy = books;
+    std::sort(booksCopy.begin(), booksCopy.end());
+
+    int minPages = booksCopy[0];
+    int maxPages = 0;
+    int counter = 0;
+    int middle = 0;
+    std::pair<bool, int> checkResult = std::make_pair(false, 0);
+    int result;
+    std::for_each(booksCopy.begin(), booksCopy.end(), [&](int element){
+        counter++;
+        if(counter >= students - 1)
+            maxPages += element;
+    });
+
+    while(minPages <= maxPages)
+    {
+        middle = ((maxPages - minPages) / 2) + minPages;
+        checkResult = CheckDistributionOfPages(books, middle, students);
+        if(checkResult.first)
+        {
+            minPages = middle + 1;
+            result = checkResult.second;
+        }
+        else
+            maxPages = middle - 1;
+    }
+
+    return result;
+}
+
+std::pair<bool, int> BinarySearchUtilities::CheckDistributionOfPages(std::vector<int> &books, int pages, int students)
+{
+    int biggest = 0;
+    int counter = 0;
+    int tempAmount = 0;
+    std::vector<int> subSets;
+    for(int bookPages : books)
+    {
+       if(tempAmount + bookPages > pages  && tempAmount != 0)
+       {
+           counter++;
+           if(tempAmount > biggest)
+               biggest = tempAmount;
+           tempAmount = bookPages;
+           continue;
+       }
+       else if(tempAmount + bookPages >= pages)
+       {
+           tempAmount += bookPages;
+           counter++;
+           if(tempAmount > biggest)
+               biggest = tempAmount;
+           tempAmount = 0;
+       }
+       else
+            tempAmount+=bookPages;
+    }
+    if(tempAmount != 0 && counter < students && tempAmount <= pages && biggest == pages)
+        counter++;
+
+    return std::make_pair((counter == students), biggest);
 }
 
 
